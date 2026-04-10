@@ -66,7 +66,59 @@ namespace G_NET_7_C__4
             //Console.WriteLine("StringBuilder Time: " + sw.ElapsedMilliseconds + " ms");
             #endregion
 
-            #region 
+            #region Question 02:
+            //(a)Implement using if-else if-else statements
+            //Console.Write("Enter Age: ");
+            //int age = int.Parse(Console.ReadLine());
+
+            //Console.Write("Is it weekend? (yes/no): ");
+            //string isWeekend = Console.ReadLine().ToLower();
+
+            //Console.Write("Do you have a student ID? (yes/no): ");
+            //string isStudent = Console.ReadLine().ToLower();
+
+            //double price = 0;
+
+            //// Base price
+            //if (age < 5)
+            //    price = 0;
+            //else if (age <= 12)
+            //    price = 30;
+            //else if (age <= 60)
+            //    price = 50;
+            //else
+            //    price = 25;
+
+            //// Weekend addition
+            //if (isWeekend == "yes" && price > 0)
+            //    price += 10;
+
+            //// Student discount
+            //if (isStudent == "yes" && age <= 60)
+            //    price *= 0.8;
+
+            //Console.WriteLine("Final Ticket Price: " + price + " LE");
+
+            //(b)The program should ask for: age, day of week(1 - 7, where 6 = Fri, 7 = Sat), and whether they have a student ID(yes / no)
+            //double price = age switch
+            //{
+            //    < 5 => 0,
+            //    <= 12 => 30,
+            //    <= 60 => 50,
+            //    _ => 25
+            //};
+
+            //(c) Display the final price with a breakdown of how it was calculated
+            //Console.WriteLine($"Base Price: {price} LE");
+
+            //if (isWeekend == "yes" && price > 0)
+            //    Console.WriteLine("Weekend Extra: +10 LE");
+
+            //if (isStudent == "yes" && age <= 60)
+            //    Console.WriteLine("Student Discount: 20% off");
+
+            //Console.WriteLine($"Final Price: {price} LE");
+
             #endregion
         }
     }
