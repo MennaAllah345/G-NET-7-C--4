@@ -120,6 +120,49 @@ namespace G_NET_7_C__4
             //Console.WriteLine($"Final Price: {price} LE");
 
             #endregion
+
+            #region Question 03:
+            //(a)A traditional switch statement
+            //string fileExtension = ".pdf";
+            //string fileType;
+
+            //switch (fileExtension)
+            //{
+            //    case ".pdf":
+            //        fileType = "PDF Document";
+            //        break;
+
+            //    case ".doc":
+            //    case ".docx":
+            //        fileType = "Word Document";
+            //        break;
+
+            //    case ".xls":
+            //    case ".xlsx":
+            //        fileType = "Excel Spreadsheet";
+            //        break;
+
+            //    case ".jpg":
+            //    case ".png":
+            //    case ".gif":
+            //        fileType = "Image File";
+            //        break;
+
+            //    default:
+            //        fileType = "Unknown File Type";
+            //        break;
+            //}
+
+            //(b) A switch expression 
+            //string fileType = fileExtension switch
+            //{
+            //    ".pdf" => "PDF Document",
+            //    ".doc" or ".docx" => "Word Document",
+            //    ".xls" or ".xlsx" => "Excel Spreadsheet",
+            //    ".jpg" or ".png" or ".gif" => "Image File",
+            //     => "Unknown File Type"
+            //};
+            #endregion
         }
     }
 }
