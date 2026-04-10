@@ -163,6 +163,20 @@ namespace G_NET_7_C__4
             //     => "Unknown File Type"
             //};
             #endregion
+
+            #region Question 04:
+            //Is the ternary version more readable? When would you choose one over the other?
+            //int temperature = 35;
+
+            //string weatherAdvice =
+            //    temperature < 0 ? "Freezing! Stay indoors." :
+            //    temperature < 15 ? "Wear a jacket." :
+            //    temperature < 25 ? "Pleasant weather." :
+            //    temperature < 35 ? "Warm. Stay hydrated." :
+            //    "Hot! Avoid sun exposure.";
+
+            //Console.WriteLine(weatherAdvice);
+            #endregion
         }
     }
 }
