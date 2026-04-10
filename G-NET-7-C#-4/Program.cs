@@ -177,6 +177,70 @@ namespace G_NET_7_C__4
 
             //Console.WriteLine(weatherAdvice);
             #endregion
+
+            #region Question 05:
+
+            //int attempts = 0;
+            //bool isValid = false;
+
+            //do
+            //{
+            //    Console.Write("Enter password: ");
+            //    string password = Console.ReadLine();
+
+            //    bool hasUpper = false;
+            //    bool hasDigit = false;
+            //    bool hasSpace = false;
+
+            //    // Check each character using foreach
+            //    foreach (char c in password)
+            //    {
+            //        if (char.IsUpper(c))
+            //            hasUpper = true;
+
+            //        if (char.IsDigit(c))
+            //            hasDigit = true;
+
+            //        if (char.IsWhiteSpace(c))
+            //            hasSpace = true;
+            //    }
+
+            //    // Validation flags
+            //    bool lengthValid = password.Length >= 8;
+
+            //    if (lengthValid && hasUpper && hasDigit && !hasSpace)
+            //    {
+            //        isValid = true;
+            //        Console.WriteLine("Password accepted!");
+            //        break;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Invalid password. Issues:");
+
+            //        if (!lengthValid)
+            //            Console.WriteLine("- Must be at least 8 characters");
+
+            //        if (!hasUpper)
+            //            Console.WriteLine("- Must contain at least one uppercase letter");
+
+            //        if (!hasDigit)
+            //            Console.WriteLine("- Must contain at least one digit");
+
+            //        if (hasSpace)
+            //            Console.WriteLine("- Must not contain spaces");
+            //    }
+
+            //    attempts++;
+
+            //} while (attempts < 5);
+
+            //if (!isValid)
+            //{
+            //    Console.WriteLine("Account locked");
+            //}
+
+            #endregion
         }
     }
 }
